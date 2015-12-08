@@ -1,0 +1,11 @@
+1	Eine	eine	ART	ART	Indef|Fem|Nom|Sg	2	det	_	_ 
+2	Fehlermeldung	Fehlermeldung	N	NN	Fem|Nom|Sg	3	subj	_	_ 
+3	„	„	V	VVFIN	_|Sg|_|_	0	root	_	_ 
+4	Sie	sie	PRO	PPER	3|_|_|_	3	obja	_	_ 
+5	benötigen	benötigen	V	VVFIN	3|Pl|Pres|_	0	root	_	_ 
+6	Adminrechte	Adminrecht	N	NN	_|Nom|Pl	5	subj	_	_ 
+7	“	“	$(	$(	_	0	root	_	_ 
+8	poppt	poppen	V	VVFIN	_|_|Pres|Ind	0	root	_	_ 
+9	auf	auf	PTKVZ	PTKVZ	_	8	avz	_	_ 
+10	.	.	$.	$.	_	0	root	_	_ 
+

@@ -1,0 +1,8 @@
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_ 
+2	kann	können	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_ 
+3	das	die	ART	ART	Def|Neut|_|Sg	4	det	_	_ 
+4	Programm	Programm	N	NN	Neut|_|Sg	6	obja	_	_ 
+5	nicht	nicht	PTKNEG	PTKNEG	_	6	adv	_	_ 
+6	installieren	installieren	V	VVINF	_	2	aux	_	_ 
+7	.	.	$.	$.	_	0	root	_	_ 
+

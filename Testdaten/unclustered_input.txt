@@ -1,0 +1,40 @@
+Meine Email wird nicht versendet.
+Wenn ich Email versende, kommt eine Fehlermeldung.
+Ich kann Emails nicht mehr verschicken.
+Outlook funktioniert nicht mehr.
+Thunderbird funktioniert nicht mehr.
+Das Versenden von Emails funktioniert nicht.
+Das Verschicken von Email funktioniert nicht.
+Beim Verschicken von Emails kommt eine Fehlermeldung.
+Beim Versenden von Emails kommt eine Fehlermeldung.
+Ich kann keine Emails über Thunderbird versenden.
+Emails über Outlook zu versenden geht nicht.
+Meine Emailadresse funktioniert mehr.
+Ich kann niemanden per Email erreichen.
+Mein Emailprogramm funktioniert nicht mehr.
+Der Versendeladebalken stoppt.
+Eine Fehlermeldung „Sie benötigen Adminrechte“ poppt auf.
+Wenn ich das Programm installiere, kommt ein Fehler.
+Die Installation des Programms bricht mit einer Fehlermeldung ab.
+Die Installation des Programms startet nicht.
+Ich klicke auf Setup-Datei und dann zeigt er mir einen Fehler.
+Ich habe keine Admin-Rechte und kann deshalb nichts installieren.
+Ich kann das Programm nicht installieren.
+Eine Fehlermeldung taucht beim Installieren auf.
+Ein Fehler erscheint bei der Installation.
+Mein Computer macht sich selbständig.
+Mein Cursor springt.
+Meine Maus springt.
+Meine Maus bewegt sich, ohne dass ich sie bewege.
+Meine Maus bewegt sich, ohne dass ich etwas mache.
+Der Mauszeiger spinnt.
+Der Zeiger ist außer Kontrolle.
+Ich kann nicht klicken, wo ich hin will.
+Die Bewegung der Maus ist nicht nachvollziehbar.
+Ich verstehe nicht, warum die Maus sich bewegt.
+Ich brauche Hilfe bei der Installation von Excel.
+Powerpoint baut Mist mit der Formatierung.
+Mein Computer ist abgestürzt und geht nicht mehr an.
+Mein Auto parkt vor der Garage.
+Ich habe Angst vor Spinnen.
+Draußen ist schönes Wetter.

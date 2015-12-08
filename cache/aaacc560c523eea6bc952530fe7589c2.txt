@@ -1,0 +1,11 @@
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_ 
+2	verstehe	verstehen	V	VVFIN	1|Sg|Pres|_	0	root	_	_ 
+3	nicht	nicht	PTKNEG	PTKNEG	_	2	adv	_	_ 
+4	,	,	$,	$,	_	0	root	_	_ 
+5	warum	warum	PWAV	PWAV	_	9	adv	_	_ 
+6	die	die	ART	ART	Def|Fem|Nom|Sg	7	det	_	_ 
+7	Maus	Maus	N	NN	Fem|Nom|Sg	9	subj	_	_ 
+8	sich	sie	PRO	PRF	3|_|_	9	obja	_	_ 
+9	bewegt	bewegen	V	VVFIN	3|Sg|Pres|Ind	2	objc	_	_ 
+10	.	.	$.	$.	_	0	root	_	_ 
+

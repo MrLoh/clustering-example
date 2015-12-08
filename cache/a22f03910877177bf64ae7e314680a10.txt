@@ -1,0 +1,8 @@
+1	Das	die	ART	ART	Def|Neut|Nom|Sg	2	det	_	_ 
+2	Versenden	Versende	N	NN	Neut|Nom|Sg	5	subj	_	_ 
+3	von	von	PREP	APPR	_	2	pp	_	_ 
+4	Emails	Email	N	NN	Neut|_|_	3	pn	_	_ 
+5	funktioniert	funktionieren	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_ 
+6	nicht	nicht	PTKNEG	PTKNEG	_	5	adv	_	_ 
+7	.	.	$.	$.	_	0	root	_	_ 
+

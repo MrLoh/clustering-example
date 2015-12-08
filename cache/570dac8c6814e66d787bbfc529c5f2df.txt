@@ -1,0 +1,7 @@
+1	Meine	meine	ART	PPOSAT	_|Nom|Sg	2	det	_	_ 
+2	Email	Email	N	NN	_|Nom|Sg	3	subj	_	_ 
+3	wird	werden	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_ 
+4	nicht	nicht	PTKNEG	PTKNEG	_	5	adv	_	_ 
+5	versendet	versenden	V	VVPP	_	3	aux	_	_ 
+6	.	.	$.	$.	_	0	root	_	_ 
+

@@ -1,0 +1,9 @@
+1	Beim	bei	PREP	APPRART	Dat	5	pp	_	_ 
+2	Verschicken	Verschicken	N	NN	Neut|Dat|_	1	pn	_	_ 
+3	von	von	PREP	APPR	_	2	pp	_	_ 
+4	Emails	Email	N	NN	Neut|_|_	3	pn	_	_ 
+5	kommt	kommen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_ 
+6	eine	eine	ART	ART	Indef|Fem|Nom|Sg	7	det	_	_ 
+7	Fehlermeldung	Fehlermeldung	N	NN	Fem|Nom|Sg	5	subj	_	_ 
+8	.	.	$.	$.	_	0	root	_	_ 
+

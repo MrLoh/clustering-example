@@ -1,0 +1,9 @@
+Eine Fehlermeldung „Sie benötigen Adminrechte“ poppt auf.
+Wenn ich das Programm installiere, kommt ein Fehler.
+Die Installation des Programms bricht mit einer Fehlermeldung ab.
+Die Installation des Programms startet nicht.
+Ich klicke auf Setup-Datei und dann zeigt er mir einen Fehler.
+Ich habe keine Admin-Rechte und kann deshalb nichts installieren.
+Ich kann das Programm nicht installieren.
+Eine Fehlermeldung taucht beim Installieren auf.
+Ein Fehler erscheint bei der Installation.

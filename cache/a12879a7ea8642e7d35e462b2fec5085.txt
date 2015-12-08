@@ -1,0 +1,11 @@
+1	Wenn	wenn	KOUS	KOUS	_	5	konj	_	_ 
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	_ 
+3	das	die	ART	ART	Def|Neut|_|Sg	4	det	_	_ 
+4	Programm	Programm	N	NN	Neut|_|Sg	5	obja	_	_ 
+5	installiere	installieren	V	VVFIN	1|Sg|Pres|_	7	neb	_	_ 
+6	,	,	$,	$,	_	0	root	_	_ 
+7	kommt	kommen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_ 
+8	ein	eine	ART	ART	Indef|Masc|Nom|Sg	9	det	_	_ 
+9	Fehler	Fehler	N	NN	Masc|Nom|Sg	7	subj	_	_ 
+10	.	.	$.	$.	_	0	root	_	_ 
+

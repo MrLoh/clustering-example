@@ -1,0 +1,11 @@
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_ 
+2	kann	können	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_ 
+3	nicht	nicht	PTKNEG	PTKNEG	_	4	adv	_	_ 
+4	klicken	klicken	V	VVINF	_	2	aux	_	_ 
+5	,	,	$,	$,	_	0	root	_	_ 
+6	wo	wo	PWAV	PWAV	_	0	root	_	_ 
+7	ich	ich	PRO	PPER	1|Sg|_|Nom	0	root	_	_ 
+8	hin	hin	APZR	APZR	_	0	root	_	_ 
+9	will	wollen	V	VMFIN	_|Sg|Pres|Ind	0	root	_	_ 
+10	.	.	$.	$.	_	0	root	_	_ 
+

@@ -1,0 +1,11 @@
+1	Die	die	ART	ART	Def|Fem|Nom|Sg	2	det	_	_ 
+2	Installation	Installation	N	NN	Fem|Nom|Sg	5	subj	_	_ 
+3	des	die	ART	ART	Def|Neut|Gen|Sg	4	det	_	_ 
+4	Programms	Programm	N	NN	Neut|Gen|Sg	2	gmod	_	_ 
+5	bricht	brechen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_ 
+6	mit	mit	PREP	APPR	Dat	5	pp	_	_ 
+7	einer	eine	ART	ART	Indef|Fem|Dat|Sg	8	det	_	_ 
+8	Fehlermeldung	Fehlermeldung	N	NN	Fem|Dat|Sg	6	pn	_	_ 
+9	ab	ab	PTKVZ	PTKVZ	_	5	avz	_	_ 
+10	.	.	$.	$.	_	0	root	_	_ 
+

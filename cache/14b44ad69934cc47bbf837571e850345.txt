@@ -1,0 +1,6 @@
+1	Draußen	draußen	ADV	ADV	_	2	pred	_	_ 
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_ 
+3	schönes	schön	ADJA	ADJA	Pos|Neut|Nom|Sg|St|	4	attr	_	_ 
+4	Wetter	Wetter	N	NN	Neut|Nom|Sg	2	subj	_	_ 
+5	.	.	$.	$.	_	0	root	_	_ 
+

@@ -1,0 +1,6 @@
+1	Thunderbird	Thunderbird	N	NE	_|Nom|Sg	2	subj	_	_ 
+2	funktioniert	funktionieren	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_ 
+3	nicht	nicht	PTKNEG	PTKNEG	_	2	adv	_	_ 
+4	mehr	mehr	ADV	ADV	_	3	adv	_	_ 
+5	.	.	$.	$.	_	0	root	_	_ 
+

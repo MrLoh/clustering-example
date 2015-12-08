@@ -1,0 +1,15 @@
+Meine Email wird nicht versendet.
+Wenn ich Email versende, kommt eine Fehlermeldung.
+Ich kann Emails nicht mehr verschicken.
+Outlook funktioniert nicht mehr.
+Thunderbird funktioniert nicht mehr.
+Das Versenden von Emails funktioniert nicht.
+Das Verschicken von Email funktioniert nicht.
+Beim Verschicken von Emails kommt eine Fehlermeldung.
+Beim Versenden von Emails kommt eine Fehlermeldung.
+Ich kann keine Emails über Thunderbird versenden.
+Emails über Outlook zu versenden geht nicht.
+Meine Emailadresse funktioniert mehr.
+Ich kann niemanden per Email erreichen.
+Mein Emailprogramm funktioniert nicht mehr.
+Der Versendeladebalken stoppt.

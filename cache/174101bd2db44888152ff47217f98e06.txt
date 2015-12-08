@@ -1,0 +1,8 @@
+1	Eine	eine	ART	ART	Indef|Fem|Nom|Sg	2	det	_	_ 
+2	Fehlermeldung	Fehlermeldung	N	NN	Fem|Nom|Sg	3	subj	_	_ 
+3	taucht	tauchen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_ 
+4	beim	bei	PREP	APPRART	Dat	3	pp	_	_ 
+5	Installieren	Installieren	N	NN	Neut|Dat|Sg	4	pn	_	_ 
+6	auf	auf	PTKVZ	PTKVZ	_	3	avz	_	_ 
+7	.	.	$.	$.	_	0	root	_	_ 
+

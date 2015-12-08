@@ -1,0 +1,11 @@
+1	Mein	meine	ART	PPOSAT	Masc|Nom|Sg	2	det	_	_ 
+2	Computer	Computer	N	NN	Masc|Nom|Sg	3	subj	_	_ 
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_ 
+4	abgestürzt	abstürzen	V	VVPP	_	3	aux	_	_ 
+5	und	und	KON	KON	_	3	kon	_	_ 
+6	geht	gehen	V	VVFIN	_|_|Pres|Ind	5	cj	_	_ 
+7	nicht	nicht	PTKNEG	PTKNEG	_	6	adv	_	_ 
+8	mehr	mehr	ADV	ADV	_	7	adv	_	_ 
+9	an	an	PTKVZ	PTKVZ	_	6	avz	_	_ 
+10	.	.	$.	$.	_	0	root	_	_ 
+

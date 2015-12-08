@@ -1,0 +1,10 @@
+1	Wenn	wenn	KOUS	KOUS	_	4	konj	_	_ 
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	4	subj	_	_ 
+3	Email	Email	N	NN	_|_|Sg	4	obja	_	_ 
+4	versende	versenden	V	VVFIN	1|Sg|Pres|_	6	neb	_	_ 
+5	,	,	$,	$,	_	0	root	_	_ 
+6	kommt	kommen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_ 
+7	eine	eine	ART	ART	Indef|Fem|Nom|Sg	8	det	_	_ 
+8	Fehlermeldung	Fehlermeldung	N	NN	Fem|Nom|Sg	6	subj	_	_ 
+9	.	.	$.	$.	_	0	root	_	_ 
+

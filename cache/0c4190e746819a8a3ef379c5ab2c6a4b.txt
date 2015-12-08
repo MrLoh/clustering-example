@@ -1,0 +1,9 @@
+1	Die	die	ART	ART	Def|Fem|Nom|Sg	2	det	_	_ 
+2	Bewegung	Bewegung	N	NN	Fem|Nom|Sg	5	subj	_	_ 
+3	der	die	ART	ART	Def|Fem|Gen|Sg	4	det	_	_ 
+4	Maus	Maus	N	NN	Fem|Gen|Sg	2	gmod	_	_ 
+5	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_ 
+6	nicht	nicht	PTKNEG	PTKNEG	_	5	adv	_	_ 
+7	nachvollziehbar	nachvollziehbar	ADV	ADJD	Pos|	5	pred	_	_ 
+8	.	.	$.	$.	_	0	root	_	_ 
+

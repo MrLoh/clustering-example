@@ -1,0 +1,9 @@
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_ 
+2	kann	können	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_ 
+3	keine	keine	ART	PIAT	Neut|_|Pl	4	det	_	_ 
+4	Emails	Email	N	NN	Neut|_|Pl	7	obja	_	_ 
+5	über	über	PREP	APPR	_	4	pp	_	_ 
+6	Thunderbird	Thunderbird	N	NE	_|_|_	5	pn	_	_ 
+7	versenden	versenden	V	VVINF	_	2	aux	_	_ 
+8	.	.	$.	$.	_	0	root	_	_ 
+

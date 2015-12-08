@@ -1,0 +1,10 @@
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_ 
+2	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	0	root	_	_ 
+3	Hilfe	Hilfe	N	NN	Fem|_|Sg	2	obja	_	_ 
+4	bei	bei	PREP	APPR	Dat	2	pp	_	_ 
+5	der	die	ART	ART	Def|Fem|Dat|Sg	6	det	_	_ 
+6	Installation	Installation	N	NN	Fem|Dat|Sg	4	pn	_	_ 
+7	von	von	PREP	APPR	_	6	pp	_	_ 
+8	Excel	Excel	N	NN	_|_|_	7	pn	_	_ 
+9	.	.	$.	$.	_	0	root	_	_ 
+

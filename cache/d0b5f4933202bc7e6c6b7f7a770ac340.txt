@@ -1,0 +1,11 @@
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_ 
+2	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_ 
+3	keine	keine	ART	PIAT	_|_|_	4	det	_	_ 
+4	Admin-Rechte	Admin-Recht	N	NN	_|_|_	2	obja	_	_ 
+5	und	und	KON	KON	_	2	kon	_	_ 
+6	kann	können	V	VMFIN	_|Sg|Pres|Ind	5	cj	_	_ 
+7	deshalb	deshalb	PROAV	PROAV	_	9	pp	_	_ 
+8	nichts	nichts	PRO	PIS	_	9	obja	_	_ 
+9	installieren	installieren	V	VVINF	_	6	aux	_	_ 
+10	.	.	$.	$.	_	0	root	_	_ 
+

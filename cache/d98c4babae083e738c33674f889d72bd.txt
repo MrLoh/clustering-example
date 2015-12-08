@@ -1,0 +1,7 @@
+1	Mein	meine	ART	PPOSAT	Masc|Nom|Sg	2	det	_	_ 
+2	Computer	Computer	N	NN	Masc|Nom|Sg	3	subj	_	_ 
+3	macht	machen	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_ 
+4	sich	sie	PRO	PRF	3|_|_	3	obja	_	_ 
+5	selbständig	selbständig	ADV	ADJD	Pos|	3	pred	_	_ 
+6	.	.	$.	$.	_	0	root	_	_ 
+
