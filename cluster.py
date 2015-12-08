@@ -1,103 +1,79 @@
 # -*- coding: utf-8 -*-
+
 import os
 from hashlib import md5
 
-PARZU_EXE = './ParZu/parzu'
-CACHE = 'cache'
-EXIT_STATUS_SUCCESS = 0
+
+PARZU_EXE = './ParZu/parzu' # path to ParZu executable
+CACHE_DIR = 'cache' # cache directory
+CLUSTERS_DIR = 'Testdaten' # directory with clustered lines
+EXIT_STATUS_SUCCESS = 0 # system exit status on success
+
+
 
 def stem(string):
     '''extract list of stems from a string'''
-    cache_file = CACHE + '/' + md5(string.strip()).hexdigest() + '.txt'
+    # create cache file name from string
+    cache_file = '%s/%s.txt' % (CACHE_DIR, md5(string.strip()).hexdigest())
     # see whether stemming for string is cached
     try:
         stems_file = open(cache_file)
+    # otherwise run ParZu to get stems
     except IOError:
         # write input string into temp file
-        temp_file = CACHE + '/' + 'temp.txt'
+        temp_file = '%s/temp.txt' % CACHE_DIR
         with open(temp_file, 'w') as f:
             f.write(string)
         # create stemming file from temp with ParZu save result in cache
-        command = '{0} < {1} > {2}'.format(PARZU_EXE, temp_file, cache_file)
+        command = '%s < %s > %s' % (PARZU_EXE, temp_file, cache_file)
         if os.system(command) != EXIT_STATUS_SUCCESS:
-            raise Exception('$' + command + ' failed')
+            raise Exception('$ %s failed' % command)
+        # open generated stems file
         stems_file = open(cache_file)
+
     # extract stems from stemming_file
     stems = []
     for line in stems_file:
-        # add stem unless line is empty or about punctuation
+        # add stem unless line is empty or punctuation
         if line != '\n' and line.split('\t')[3][0] != '$' :
             stems += [line.split('\t')[2].lower()]
     # return list of stems
     return stems
 
 
+
 def find_fitting_cluster(string, clusters):
     '''find a fitting clusternumber for a given string and an array of cluster tags'''
+    # get stems of word
     stems = stem(string)
-    ratings = [0,0,0,0]
+    ratings = [0 for i in range(len(clusters))]
     for c in range(len(clusters)):
-        # a check that ignores compound nouns could simply use the follwing line instead of the 4 lines after it
-        ratings[c] = sum([1 if stems[i] in clusters[c] else 0 for i in range(len(stems))])
-        # for tag in clusters[c]:
-        #     for stm in stems:
-        #         if tag in stm:
-        #             ratings[c] += 1
+        # a check that ignores compound nouns could simply use the
+        # follwing line instead of the 4 lines after it
+        # ratings[c] = sum([1 if stems[i] in clusters[c] else 0 for i in range(len(stems))])
+        # loop over cluster tags
+        for tag in clusters[c]:
+            # loop over stems in line
+            for stm in stems:
+                # increase rating if cluster tag is in stem
+                if tag in stm:
+                    ratings[c] += 1
+    # if no tags have been found return post last cluster
     if sum(ratings) == 0:
-        cluster = 5
+        cluster = len(clusters)
+    # otherwise return number of cluster with maximum frequency of hits
     else:
-        cluster = ratings.index(max(ratings))+1
-    return cluster
+        cluster = ratings.index(max(ratings))
+    # return number of cluster, start counting at 1
+    return cluster + 1
+
+
 
 def find_in_cluster_files(line):
+    '''find in which cluster file the line is contained'''
+    # loop over cluster files
     for i in range(1,6):
-        with open('Testdaten/cluster_' + str(i) + '.txt') as f:
+        with open('%s/cluster_%i.txt' % (CLUSTERS_DIR, i)) as f:
+            # return cluster number if line is found in cluster
             if line in f.read().splitlines():
                 return i
-
-
-
-cluster_1_tags = ['versenden','email','verschicken','outlook','thunderbird']
-cluster_2_tags = ['installation','admin','admin-rechte','setup','installieren']
-cluster_3_tags = ['maus','mauszeiger','zeiger','cursor','trackpad','mousepad']
-cluster_4_tags = ['installation','excel','powerpoint','formattierung','computer','abstürzen']
-
-# # we might want to remove endings, if we check for compound words, that captures things like Versendeladebalken
-# cluster_1_tags[0] = 'versend'
-# cluster_1_tags[2] = 'verschick'
-# cluster_2_tags[4] = 'installier'
-# cluster_4_tags[5] = 'abstürz'
-# # adding the verb click to cluster 3 seems to make sense
-# cluster_3_tags += ['klick']
-
-cluster_tags = [cluster_1_tags, cluster_2_tags, cluster_3_tags, cluster_4_tags]
-
-inputs = open("Testdaten/unclustered_input.txt").read().splitlines()
-
-for line in inputs:
-    fit = find_fitting_cluster(line, cluster_tags)
-    truth = find_in_cluster_files(line)
-    if fit != truth:
-        print('mistake in: \'%s\'' % line)
-        print('is: %i | fitted: %i' % (truth, fit))
-
-for i in range(1,6):
-    print('\nCluster %i:' % i)
-    true_positives = 0
-    false_positives = 0
-    false_negatives = 0
-    for line in inputs:
-        fit = find_fitting_cluster(line, cluster_tags)
-        truth = find_in_cluster_files(line)
-        if fit == i:
-            if truth == i:
-                true_positives += 1
-            else:
-                false_positives += 1
-        else:
-            if truth == i:
-                false_negatives += 1
-    precision = float(true_positives)/(true_positives + false_positives)*100
-    recall = float(true_positives)/(true_positives + false_negatives)*100
-    print('precision: \t%.0f%%' % precision)
-    print('recall: \t%.0f%%' % recall)
