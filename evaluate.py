@@ -31,6 +31,8 @@ for line in test_set:
         print('is: %i | fitted: %i' % (truth, fit))
 
 # calculate and print precision and recall for all clusters
+recalls = []
+precisions = []
 for i in range(1,6):
     print('\nCluster %i:' % i)
     true_positives = 0
@@ -48,6 +50,16 @@ for i in range(1,6):
             if truth == i:
                 false_negatives += 1
     precision = float(true_positives)/(true_positives + false_positives)*100
+    precisions += [precision]
     recall = float(true_positives)/(true_positives + false_negatives)*100
+    recalls += [recall]
     print('precision: \t%.0f%%' % precision)
     print('recall: \t%.0f%%' % recall)
+
+mean_precision = sum(precisions)/len(precisions)
+mean_recall = sum(recalls)/len(recalls)
+f_measure = 2 * mean_recall * mean_precision / (mean_recall + mean_precision)
+print('\nMean:')
+print('precision: \t%.0f%%' % mean_precision)
+print('recall: \t%.0f%%' % mean_recall)
+print('F measure: \t%.0f%%' % f_measure)
